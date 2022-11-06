@@ -75,5 +75,10 @@ return require('packer').startup(function(use)
   use 'Mofiqul/dracula.nvim'
   use {"nvim-tree/nvim-tree.lua",requires = {"kyazdani42/nvim-web-devicons"}}
   use 'tpope/vim-commentary'
-  use {'Yggdroot/LeaderF',run = ":LeaderfInstallCExtension"}
+  -- use {'Yggdroot/LeaderF',run = ":LeaderfInstallCExtension"}
+  use {
+  'nvim-telescope/telescope.nvim', tag = '0.1.0',
+-- or                            , branch = '0.1.x',
+  requires = { {'nvim-lua/plenary.nvim'} }
+}
 end)

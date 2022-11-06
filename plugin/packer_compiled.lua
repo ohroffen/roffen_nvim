@@ -74,11 +74,6 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  LeaderF = {
-    loaded = true,
-    path = "/home/roffen/.local/share/nvim/site/pack/packer/start/LeaderF",
-    url = "https://github.com/Yggdroot/LeaderF"
-  },
   dracula = {
     loaded = true,
     path = "/home/roffen/.local/share/nvim/site/pack/packer/start/dracula",
@@ -103,6 +98,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/roffen/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/roffen/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/roffen/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-commentary"] = {
     loaded = true,
