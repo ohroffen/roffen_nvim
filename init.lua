@@ -5,3 +5,5 @@ require('colorscheme')
 require('keybindings')
 -- setup for nvim-tree.lua
 require('nvim-tree')
+-- setup for bufferline.lua
+require('bufferline')

@@ -39,3 +39,6 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- nvim-tree.lua
 map("n","<C-t>",":NvimTreeToggle<CR>",opt)
+-- bufferline
+map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
+map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
