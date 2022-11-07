@@ -11,3 +11,5 @@ require('bufferline')
 require('nvim-treesitter')
 -- setup for nvim-lualine.lua
 require('lualine')
+-- setup for toggleterm.lua
+require('toggleterm')
