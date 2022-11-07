@@ -7,5 +7,7 @@ require('keybindings')
 require('nvim-tree')
 -- setup for bufferline.lua
 require('bufferline')
--- setup for nvmi-treesitter.lua
+-- setup for nvim-treesitter.lua
 require('nvim-treesitter')
+-- setup for nvim-lualine.lua
+require('lualine')
