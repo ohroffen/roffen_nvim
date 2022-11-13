@@ -13,3 +13,5 @@ require('nvim-treesitter')
 require('lualine')
 -- setup for toggleterm.lua
 require('toggleterm')
+-- lspconfig
+require('lspconfig')
