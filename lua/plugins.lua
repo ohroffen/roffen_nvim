@@ -100,4 +100,5 @@ return require('packer').startup(function(use)
     require("toggleterm").setup()
   end}
   use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
+  use {'neoclide/coc.nvim', branch = 'release'}
 end)
