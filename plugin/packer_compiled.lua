@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/roffen/.local/share/nvim/site/pack/packer/start/dracula.nvim",
     url = "https://github.com/Mofiqul/dracula.nvim"
   },
+  ["interestingwords.nvim"] = {
+    loaded = true,
+    path = "/home/roffen/.local/share/nvim/site/pack/packer/start/interestingwords.nvim",
+    url = "https://github.com/leisiji/interestingwords.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/roffen/.local/share/nvim/site/pack/packer/start/lualine.nvim",

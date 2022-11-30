@@ -34,12 +34,15 @@ local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<C-p>', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>ff', builtin.grep_string, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- nvim-tree.lua
 map("n","<C-t>",":NvimTreeToggle<CR>",opt)
-map("n","<C-f>","NvimTreeFindFile<CR>",opt)
+map("n","<C-f>",":NvimTreeFindFile<CR>",opt)
 -- bufferline
 map("n", "<C-h>", ":BufferLineCyclePrev<CR>", opt)
 map("n", "<C-l>", ":BufferLineCycleNext<CR>", opt)
+-- interestingwords
+map("n","<leader>h",":Interestingwords --toggle<CR>",opt)
