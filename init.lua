@@ -15,3 +15,5 @@ require('lualine')
 require('toggleterm')
 -- lspconfig
 require('lspconfig')
+-- cmp
+require('cmp')
