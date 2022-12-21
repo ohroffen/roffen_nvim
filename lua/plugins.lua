@@ -113,4 +113,6 @@ return require('packer').startup(function(use)
   use {'rafamadriz/friendly-snippets'}
   -- lspkind
   use {'onsails/lspkind-nvim'}
+  -- cursorword
+  use {'yamatsum/nvim-cursorline'}
 end)

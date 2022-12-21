@@ -17,3 +17,5 @@ require('toggleterm')
 require('lspconfig')
 -- cmp
 require('cmp')
+-- cursorline
+require('nvim-cursorline')
